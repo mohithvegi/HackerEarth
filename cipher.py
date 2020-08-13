@@ -3,14 +3,6 @@
 message = list(input())
 N = int(input())
 
-capital_letters = []
-small_letters = []
-
-for i in range(65, 91):
-    capital_letters.append(chr(i))
-for j in range(97, 123):
-    small_letters.append(chr(j))
-
 for i in range(len(message)):
     c = message[i]
     if(c.isalnum()):
